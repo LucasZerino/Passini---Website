@@ -10,7 +10,7 @@ const Quote = () => {
             <img src="/images/icon/icon_138.svg" alt="" className="lazy-img" />
           </div>
           <p className="tx-dark mt-25 mb-30 fw-500">
-            “Os equipamentos da Passini garantiram a segurança e eficiência da nossa obra."
+            &ldquo;Os equipamentos da Passini garantiram a segurança e eficiência da nossa obra.&rdquo;
           </p>
           <h6 className="fw-normal fst-italic tx-dark opacity-50 fs-20">
           - Lucas Z

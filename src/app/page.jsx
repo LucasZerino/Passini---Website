@@ -13,6 +13,7 @@ import FancySection from "./_components/Hero/FancySection";
 import Comentarios from "./_components/Testimonials/page";
 import ContactForm from "./_components/ContactForm/ContactForm";
 import Inferior from "./_components/Footer/page";
+import Image from "next/image";
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
@@ -45,18 +46,18 @@ export default function Page() {
               <Property />
             </div>
             <Quote />
-            <img
+            <Image
               src="/images/assets/sticker_01.png"
               alt="sticker"
               className="lazy-img shapes shape-one"
             />
             <div className="shapes shape-two" />
-            <img
+            <Image
               src="/images/shape/shape_162.svg"
               alt="sticker"
               className="lazy-img shapes shape-three"
             />
-            <img
+            <Image
               src="/images/assets/sticker_02.png"
               alt="sticker"
               className="lazy-img shapes shape-four"
@@ -81,7 +82,7 @@ export default function Page() {
                 <div className="row align-items-center">
                   <div className="col-lg-6 ms-auto order-lg-last">
                     <div className="text-wrapper">
-                      <img
+                      <Image
                         src="/images/icon/icon_114.svg"
                         alt="icon"
                         className="lazy-img mb-30"
@@ -109,12 +110,12 @@ export default function Page() {
               Fill the <br />
               form
             </div>
-            <img
+            <Image
               src="/images/shape/shape_90.svg"
               alt="shape"
               className="lazy-img shapes shape-one"
             />
-            <img
+            <Image
               src="/images/shape/shape_91.svg"
               alt="shape"
               className="lazy-img shapes shape-two"

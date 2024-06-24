@@ -11,7 +11,7 @@ export default function Page(){
             <Card>
               <CardHeader>
                 <CardTitle>Overview</CardTitle>
-                <CardDescription>A summary of your blog's performance.</CardDescription>
+                <CardDescription>A summary of your blog&apos;s performance.</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
@@ -124,7 +124,7 @@ export default function Page(){
                           <div className="text-sm text-gray-500 dark:text-gray-400">1 week ago</div>
                         </div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">
-                          Interesting perspective. I'll have to try that out.
+                        Interesting perspective. I&apos;ll have to try that out.
                         </div>
                       </div>
                     </div>
@@ -139,7 +139,7 @@ export default function Page(){
                           <div className="text-sm text-gray-500 dark:text-gray-400">2 weeks ago</div>
                         </div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">
-                          Awesome post! Can't wait to see more.
+                          Awesome post! Can&apos;t wait to see more.
                         </div>
                       </div>
                     </div>

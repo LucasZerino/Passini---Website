@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import Link from "next/link";
+import Image from "next/image";
 
 const Inferior = () => {
   return (
@@ -10,7 +11,7 @@ const Inferior = () => {
               <div className="col-lg-3 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo/logo_02.png" alt="logo" width={95} />
+                    <Image src="/images/logo/logo_02.png" alt="logo" width={95} />
                   </Link>
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
@@ -25,12 +26,12 @@ const Inferior = () => {
             </div>
           </div>
         </div>
-        <img
+        <Image
           src="/images/assets/ils_13.png"
           alt="illustration"
           className="lazy-img illustration-one"
         />
-        <img
+        <Image
           src="/images/assets/ils_14.png"
           alt="illustration"
           className="lazy-img illustration-two"
